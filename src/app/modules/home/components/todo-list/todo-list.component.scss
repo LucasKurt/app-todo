@@ -1,6 +1,6 @@
-@import '../../../../../dist/scss/variables.scss';
+@import "../../../../../dist/scss/variables.scss";
 
-section{
+section {
   width: 100%;
   min-height: 15.625rem;
 
@@ -9,40 +9,40 @@ section{
 
   margin-top: 1.25rem;
 
-  &.loading{
+  &.loading {
     background-image: url("../../../../../assets/img/bg-task.png");
     background-repeat: no-repeat;
     background-position: center 2rem;
   }
 
-  ul{
+  ul {
     padding: 1.25rem;
 
-    li{
+    li {
       display: flex;
       justify-content: space-between;
       align-items: center;
 
       margin-bottom: 0.625rem;
 
-      input{
-        &[type="checkbox"]{
+      input {
+        &[type="checkbox"] {
           width: 5%;
         }
-        &[type="text"]{
+        &[type="text"] {
           width: 80%;
           padding: 0.25rem 0.625rem;
           border: none;
 
           font-size: 1rem;
           color: $primary-text-color;
-          &.checked{
+          &.checked {
             text-decoration: line-through;
           }
         }
       }
 
-      button{
+      button {
         width: 5%;
         background: none;
         border: none;
